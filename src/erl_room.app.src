@@ -1,0 +1,12 @@
+{application, erl_room,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { erl_room_app, []}},
+  {env, []}
+ ]}.
